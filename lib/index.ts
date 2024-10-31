@@ -19,6 +19,7 @@ export enum Type {
 	 * @since 26.0.0
 	 */
 	SHARE_TYPE_FEDERATED_GROUP = 14,
+	SHARE_TYPE_INVITATION_LINK = 16,
 }
 
 export enum ShareType {
@@ -39,4 +40,5 @@ export enum ShareType {
 	 * @since 26.0.0
 	 */
 	FederatedGroup = 14,
+	InvitationLink = 16,
 }
